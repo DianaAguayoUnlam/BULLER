@@ -1,0 +1,146 @@
+body{
+    font-family: 'Poppins'
+}
+
+.logo{
+    width: 11rem
+}
+
+.nav-link{
+    color: white
+}
+
+.carousel-control-prev, .carousel-control-next{
+    top: auto !important;
+    opacity: 1 !important;
+    width: 4rem;
+    background-color: #191919;
+    padding: 0.7rem 1.45rem
+}
+
+.carousel-control-next{
+    left: 4.1rem 
+}
+
+.carousel-caption{
+    color: black;
+    top: 51%;
+    right: 52.7%;
+    padding: 2.3rem;
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    line-height: 49px;
+}
+
+.carousel-caption h1{
+    line-height: 49px;
+    font-size: 2.2rem !important;
+    letter-spacing: -1px;
+}
+
+
+.view-more{
+    color: #94867A !important;
+    text-decoration: underline;
+}
+
+.submenu{
+    background-color: #191919;
+}
+
+main{
+    background-color: #6A5746;
+}
+
+.title{
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    line-height:39px;
+    font-size: 1.8rem;
+}
+
+footer{
+    background-color: #574332;
+}
+
+.view-more{
+    font-family: 'Poppins';
+}
+
+@media screen and (max-width: 767px) {
+    .hidden-xs{
+        display: none
+    }
+
+    .visible-xs{
+        display: block !important
+    }
+
+    .nav-icons img, .shopping-cart-mobile img{
+        width: 1.3rem
+    }
+
+    .facebook-icon{
+        width: .6rem !important
+    }
+
+    .border-sm-0{
+        border: 0 !important
+    }
+
+    .logo{
+        width: 8rem
+    }
+
+    .carousel-caption{
+        right: 0;
+        padding: .45rem !important
+    }
+
+    .carousel-caption h1{
+        font-size: 1.7rem !important;
+        line-height: 38px
+    }
+
+    .title{
+        font-size: 1.3rem;
+    }
+
+    footer span{
+        display: block;
+    }
+    
+    footer{
+        font-size: 0.7rem;
+    }
+}
+
+@media(min-width: 1221px) and (max-width: 1400px){
+    .me-lg-6{
+        margin-right: 4.95rem !important
+    } 
+}
+
+@media (min-width: 1400px){
+    header div{
+        padding-right: 0.7rem !important;
+        padding-left: 0.7rem !important
+    } 
+    .me-lg-6{
+        margin-right: 5.3rem !important
+    }
+}
+
+@media(min-width: 1441px) and (max-width: 1920px){
+ 
+}
+
+.submenu .nav-link{
+    opacity: .5;
+}
+.submenu .nav-link:focus, .submenu .nav-link:hover, .submenu .nav-link.active{
+    color: white;
+    opacity: 1;
+    border-bottom: solid rgb(244, 245, 244) 2.5px;
+}
+
